@@ -29,7 +29,7 @@ def crawler(name):
 		driver.find_element_by_id("loginbtn").click()
 
 		inputElement = driver.find_element_by_id("password")
-		inputElement.send_keys('queen619')
+		inputElement.send_keys('PASSWORD_GOES_HERE')
 
 		driver.find_element_by_id("loginbtn").click()
 		
